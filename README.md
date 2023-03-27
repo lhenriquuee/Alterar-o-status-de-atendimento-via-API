@@ -2,15 +2,17 @@
 Aprenda como alterar o status de um protocolo de atendimento na plataforma via API. 
 
 ## Visão Geral
-1. O que é uma API ?
-2. Sobre a API de Alteração de status de atendimento 
-3. Autenticando o usuário
+* O que é uma API ?
+* Sobre a API de Alteração de status de atendimento 
+* Autenticando o usuário
+* Requisitos do usuário
+* Alteração do Status do Atendimento
 
 
-### O que é uma API ?
+## O que é uma API ?
 Uma API (Interface de Programação de Aplicativos) é um conjunto de regras, protocolos e ferramentas que permitem que diferentes softwares se comuniquem e interajam uns com os outros. Permite que os desenvolvedores criem aplicativos que se integrem com outros sistemas, compartilhando dados e funcionalidades.
 
-### Sobre a API de Alteração de status de atendimento
+## Sobre a API de Alteração de status de atendimento
 Esta API foi implementada para que os status de atendimentos sejam atualizado automaticamente na plataforma, com isso o status poderá ser alterado a partir de um sistema externo, por meio de um Web Service.  
 
 
@@ -48,6 +50,10 @@ O retorno da chamada para o endpoint poderá ser um dos status a seguir:
 * JWT expired at ano-mes-data-hora Current Time:  ano-mes-data-hora, a difference of number milliseconds. Allowed clock skew: number miliseconds. (Token expirado)
 * JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.  (Token com falha)
 
+## Requisitos do Usuário
+Para utilizar esta API, é preciso ter configurado um usuário para realizar a ação na plataforma. Este usuário precisa ter em seu perfil a permissão **_Alterar status de atendimento via api_**. 
+
+
 ## Alteração do Status do Atendimento
 Para alterar status de um protocolo de atendimento na plataforma, utilize o seguinte endpoint : **_api/atendimentos/status_**
 
@@ -57,9 +63,6 @@ Este endpoint poderá ser usado para alterar status de um atendimento para :
 * Cancelado
 * Improcedente
 * Finalizado
-
-### Requisitos do Usuário
-> Para utilizar esta API, é preciso ter configurado um usuário para realizar a ação na plataforma. Este usuário precisa ter em seu perfil a permissão **_Alterar status de atendimento via api_**. 
 
 Para os status *Cancelado, Improcedente* e para reabrir um atendimento que já estava com o status *Finalizado* deve ser enviado o parâmetro de **_Motivo_** para realizar a ação. Os  Motivos são utilizados para justificar determinadas ações executadas pelos usuários na plataforma, como alterações, exclusões e restrições.
 
