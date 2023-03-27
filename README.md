@@ -2,11 +2,11 @@
 Aprenda como alterar o status de um protocolo de atendimento na plataforma via API. 
 
 ## Visão Geral
-* O que é uma API ?
-* Sobre a API de Alteração de status de atendimento 
-* Autenticando o usuário
-* Requisitos do usuário
-* Alteração do Status do Atendimento
+* [O que é uma API ?](https://github.com/lhenriquuee/Alterar-o-status-de-atendimento-via-API/blob/main/README.md#o-que-%C3%A9-uma-api-)
+* [Sobre a API de Alteração de status de atendimento](https://github.com/lhenriquuee/Alterar-o-status-de-atendimento-via-API/blob/main/README.md#sobre-a-api-de-altera%C3%A7%C3%A3o-de-status-de-atendimento)
+* [Autenticando o usuário](https://github.com/lhenriquuee/Alterar-o-status-de-atendimento-via-API/blob/main/README.md#autenticando-o-usu%C3%A1rio)
+* [Requisitos do usuário](https://github.com/lhenriquuee/Alterar-o-status-de-atendimento-via-API/blob/main/README.md#autenticando-o-usu%C3%A1rio)
+* [Alteração do Status do Atendimento](https://github.com/lhenriquuee/Alterar-o-status-de-atendimento-via-API/blob/main/README.md#altera%C3%A7%C3%A3o-do-status-do-atendimento)
 
 
 ## O que é uma API ?
